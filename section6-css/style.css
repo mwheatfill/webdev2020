@@ -1,0 +1,50 @@
+/* Selector {
+    Property: value;
+} */
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1570402642856-8d21e1f4844f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2, p {
+    font-family: 'Mansalva', cursive;
+    color: #4F7B8C;
+    text-align: center;
+    border: 5px solid rgba(82, 144, 151, 0.1);
+    cursor: pointer;
+}
+
+p {
+    color: #262626;
+    line-height: 100px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+.webtext {
+    border: 2px dashed green;
+}
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgb(0, 255, 255, 0.1);
+}
